@@ -1,0 +1,42 @@
+{
+  "workbench.colorTheme": "Oceanic Next",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.fontLigatures": true,
+  "editor.autoIndent": true,
+  "editor.rulers": [80, 120],
+  "editor.wordWrap": "on",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "**/dist": true,
+    "**/dist-deploy": true,
+    "**/coverage": true,
+    "**/github-wiki": true,
+    "**/log": true
+  },
+  "window.zoomLevel": 0,
+  "typescript.check.npmIsInstalled": false,
+  "files.associations": {
+    "*.erb": "erb"
+  },
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 5000,
+  },
+  "ruby.format": "rubocop",
+  "emmet.includeLanguages": { "erb":"html" },
+  "editor.formatOnSaveTimeout": 1500,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
