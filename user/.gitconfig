@@ -1,0 +1,14 @@
+[user]
+	email = tristantoye@gmail.com
+	name = Tristan Toye
+[core]
+	excludesfile = /Users/tristantoye/.gitignore_global
+[commit]
+	template = /Users/tristantoye/.stCommitMsg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
